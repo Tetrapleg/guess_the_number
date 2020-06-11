@@ -27,10 +27,12 @@
 
 // guessTheNumber(persNum);
 
-let num = Math.ceil(Math.random() * 100);
-console.log(num);
+
 
 function guessTheNumber() {
+
+  let num = Math.ceil(Math.random() * 100);
+  console.log(num);
 
   let persNum = prompt('Угадай число от 1 до 100');
 
@@ -59,4 +61,9 @@ const persVar = guessTheNumber();
 persVar();
 persVar();
 persVar();
+console.log(persVar);
+
+
+
+
 
